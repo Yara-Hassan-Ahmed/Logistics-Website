@@ -1,0 +1,62 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    background-color: rgb(8, 48, 75);
+    width: 100%;
+    
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.text{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(8, 48, 75);
+}
+
+
+
+
+
+.button-1 {
+  background-color: rgb(8, 48, 75);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Haas Grot Text R Web"f;
+  font-size: 18px;
+  font-weight: 500;
+  height: 40px;
+  line-height: 20px;
+  list-style: none;
+  margin: 0;
+  outline: none;
+  padding: 10px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: color 100ms;
+  vertical-align: baseline;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-1:hover,
+.button-1:focus {
+  background-color: rgb(8, 41, 55);
+  color: rgb(204, 215, 223);
+  
+  
+}

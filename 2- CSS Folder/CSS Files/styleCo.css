@@ -1,0 +1,222 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    background-color: rgb(8, 48, 75);
+    width: 100%;
+}
+.header a 
+{
+    display: inline;
+}
+.links{
+    text-align: center;
+}
+
+.links ul
+{
+    display: inline-flex;
+    list-style:  none;
+    top: 5%;
+    
+}
+
+.links ul li{
+    padding: 40px;
+
+
+}
+.links ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    
+}
+
+.subnav {
+    padding: 40px;
+    font-weight: bold;
+    
+}
+.subnav .subnavbtn {
+    
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    font-size: large;
+    font-weight: bold;
+}
+
+.navbar a:hover, .subnav:hover .subnavbtn {
+    background-color: rgb(0, 0, 0);
+}
+  
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    width: 9%;
+
+}
+  
+.subnav-content a {
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+  
+.subnav-content a:hover {
+    background-color: #eee;
+    color: black;
+}
+  
+.subnav:hover .subnav-content {
+    display: block;
+}
+
+.footer-container
+{
+    background-color: rgb(8, 48, 75);
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 12px;
+    min-width: 100vh;
+
+    
+}
+
+.footer{
+    display: flex;
+
+
+}
+.footer-heading-1
+{
+    margin: 30px;
+    left: 15%;
+    position: relative;
+    
+}
+
+
+.footer-heading-1 ul{
+    list-style: none;
+    margin-top: 12px;
+
+
+}
+
+
+.footer-heading-2
+{
+    margin: 30px;
+    left: 20%;
+    position: relative;
+
+}
+.footer-heading-2 ul{
+    list-style: none;
+    margin-top: 12px;
+
+}
+
+
+.footer-heading-3
+{
+    margin: 30px;
+    left: 25%;
+    position: relative;
+}
+.footer-heading-3 ul{
+    list-style: none;
+    margin-top: 12px;
+
+
+}
+
+
+.footer-heading-4
+{
+    margin: 30px;
+    left: 25%;
+    position: relative;
+}
+.footer-heading-4 ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.footer-heading-1 ul a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-heading-2 ul a
+{
+    text-decoration: none;
+    color: white;
+}.footer-heading-3 ul a
+{
+    text-decoration: none;
+    color: white;
+}
+
+.content-container
+{
+    color: rgb(8, 48, 75);
+    padding: 150px;
+    min-height: 50vh;
+    min-width: 50vh;
+    
+}
+
+
+.content-groupdata{
+    font-size: 21px;
+    margin-left: 550px;
+}
+.content-la1{
+    padding: 20px;
+}
+.content-la2{
+    padding: 20px;
+}
+.content-la3{
+    padding: 20px;
+}
+.content-la4{
+    padding: 20px;
+}
+.content-la5{
+    padding: 20px;
+}
+.content-la6{
+    padding: 20px;
+}
+.header-container-maps
+{
+    min-width: 280vh;
+}
+.footer-container-maps
+{
+    background-color: rgb(8, 48, 75);
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 12px;
+    min-width: 280vh;
+
+    
+}
+
+
+
