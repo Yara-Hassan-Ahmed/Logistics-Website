@@ -1,0 +1,320 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+.header
+{
+    background-color: rgb(8, 48, 75);
+    width: 100%;
+    
+}
+.header a 
+{
+    display: inline;
+    font-size: 18px;
+
+}
+
+.links{
+    text-align: center;
+    
+
+}
+
+.links ul
+{
+    display: inline-flex;
+    list-style-type:  none;
+    top: 5%;
+    
+}
+
+.links ul li{
+    padding: 40px;
+
+
+}
+.links ul li a
+{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    /* margin: 0 20px;
+    text-transform: uppercase; */
+
+    /* line-height: 60px; */
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0 , 0 , 0 , 0.23);
+
+
+    
+    
+
+}
+.links ul li a > span {
+  position: absolute;
+  background: rgb(77, 161, 218);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  pointer-events: none;
+  animation: ripples 0.6s linear infinite;
+
+  
+}
+
+.subnav {
+    padding: 40px;
+    font-weight: bold;
+    
+}
+.subnav .subnavbtn {
+    font-size: 21px;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    font-family: inherit;
+    font-weight: bold;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0 , 0 , 0 , 0.23);
+
+}
+
+
+
+  
+.subnav-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.23);
+    border-radius: 10px;
+    width: 9%;
+    overflow: hidden;
+    box-shadow: rgba(0 , 0 , 0 , 0.23);
+
+}
+  
+.subnav-content a {
+    font-size: 16px;
+    display: block;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: rgba(0 , 0 , 0 , 0.23);
+    
+}
+
+.subnav-content a > span{
+  position: absolute;
+  background: rgb(77, 161, 218);
+  transform: translate(-50%,-50%);
+  border-radius: 50%;
+  pointer-events: none;
+  overflow: hidden;
+  animation: ripples 0.6s linear infinite;
+    
+}
+  
+.subnav-content a:hover {
+    background-color: rgba(1,1,1,0.23);
+    border-radius: 5px;
+    color: rgba(79, 167, 226, 0.548);
+}
+  
+.subnav:hover .subnav-content {
+    display:  block;
+}
+.footer-container
+{
+    background-color: rgb(8, 48, 75);
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 12px;
+    min-width: 100vh;
+
+    
+}
+
+.footer{
+    display: flex;
+
+
+}
+.footer-heading-1
+{
+    margin: 30px;
+    left: 15%;
+    position: relative;
+    
+}
+
+
+.footer-heading-1 ul{
+    list-style: none;
+    margin-top: 12px;
+
+
+}
+
+
+.footer-heading-2
+{
+    margin: 30px;
+    left: 20%;
+    position: relative;
+
+}
+.footer-heading-2 ul{
+    list-style: none;
+    margin-top: 12px;
+
+}
+
+
+.footer-heading-3
+{
+    margin: 30px;
+    left: 25%;
+    position: relative;
+}
+.footer-heading-3 ul{
+    list-style: none;
+    margin-top: 12px;
+
+
+}
+
+
+.footer-heading-4
+{
+    margin: 30px;
+    left: 25%;
+    position: relative;
+}
+.footer-heading-4 ul{
+    list-style: none;
+    display: flex;
+
+}
+
+.footer-heading-1 ul a
+{
+    text-decoration: none;
+    color: white;
+}
+.footer-heading-2 ul a
+{
+    text-decoration: none;
+    color: white;
+}.footer-heading-3 ul a
+{
+    text-decoration: none;
+    color: white;
+}
+.bg-image{
+    
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+    height: auto;
+    max-width: 100%;
+    
+    
+}
+.top-left{
+    background-color: rgb(0, 0, 0);
+    background-color: rgba(0 , 0 , 0 , 0.4 );
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    border: 3px  #000000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 2;
+    width: 80%;
+    padding: 50px;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(126, 171, 230);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.main
+{
+    padding: 150px;
+    min-height: 50vh;
+    min-width: 50vh;
+    
+}
+.limmm{
+    margin-left: 10px;
+    float: left;
+    padding: 30px;
+    
+}
+.textlim label{
+    
+    font-size: 28px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.textlim p {
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+
+
+.mccl{
+    float: left;
+    padding: 30px;
+}
+.textmccl label{
+    
+    font-size: 30px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.textmccl p {
+    
+    padding: 20px;
+    font-size: 22px;
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.header-container-maps
+{
+    min-width: 280vh;
+}
+.footer-container-maps
+{
+    background-color: rgb(8, 48, 75);
+    color: white;
+    position: relative;
+    bottom: 0;
+    padding-bottom: 12px;
+    min-width: 280vh;
+
+    
+}
+
+
+
+@keyframes ripples {
+    0%{
+      width: 0px;
+      height: 0px;
+      opacity: 0.5;
+  
+    }
+    100%{
+      height: 500px;
+      width: 500px;
+      opacity: 0;
+    }
+  }
